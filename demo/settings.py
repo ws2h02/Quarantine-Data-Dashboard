@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['https://quarantine-databoard.herokuapp.com','localhost','127.0
 # Application definition
 
 INSTALLED_APPS = [
+    'data.apps.DataConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
